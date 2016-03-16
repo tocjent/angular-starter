@@ -1,0 +1,30 @@
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" ng-click="navbarCollapsed = !navbarCollapsed">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse" ng-class="{collapse: navbarCollapsed}">
+            <ul class="nav navbar-nav">
+                <li ui-sref-active="active">
+                    <a ui-sref="app.dashboard" class="item-content">
+                        <span class="glyphicon glyphicon-dashboard"></span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li ui-sref-active="active">
+                    <a ui-sref="app.profile" class="item-content">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <span>Profile</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <ui-view/>
+</div>

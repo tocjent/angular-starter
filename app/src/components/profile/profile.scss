@@ -1,0 +1,24 @@
+.app-profile-container {
+    padding-top: 0;
+
+    .app-profile-background {
+        min-height: 180px;
+        background-image: url('assets/delorean.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .app-profile-container {
+        max-height: 40px;
+    }
+
+    .app-profile-picture {
+        position: relative;
+        top: -50px;
+    }
+
+    .app-profile-data {
+        width: 100%;
+    }
+}

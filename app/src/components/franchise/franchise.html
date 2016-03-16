@@ -1,0 +1,27 @@
+<div class="panel panel-default">
+    <div class="panel-body row app-franchise">
+        <div class="col-xs-12 col-md-2 col-lg-12 app-franchise-cover-container">
+            <img src="{{vm.franchise.cover}}" class="app-franchise-cover img-thumbnail img-responsive center-block" />
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-12">
+            <h3>{{vm.franchise.name}}</h3>
+            <p>{{vm.franchise.description}}</p>
+        </div>
+        <div class="col-xs-12">
+            <table class="panel-body table table-hover">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Release date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="movie in vm.franchise.movies">
+                        <td>{{movie.title}}</td>
+                        <td>{{movie.releaseDate}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

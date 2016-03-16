@@ -1,0 +1,23 @@
+
+
+.app-franchise .app-franchise-cover-container {
+  width: 100%; }
+  .app-franchise .app-franchise-cover-container .app-franchise-cover {
+    width: 150px;
+    height: 150px; }
+
+.app-profile-container {
+  padding-top: 0; }
+  .app-profile-container .app-profile-background {
+    min-height: 180px;
+    background-image: url("assets/delorean.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .app-profile-container .app-profile-container {
+    max-height: 40px; }
+  .app-profile-container .app-profile-picture {
+    position: relative;
+    top: -50px; }
+  .app-profile-container .app-profile-data {
+    width: 100%; }

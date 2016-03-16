@@ -1,0 +1,8 @@
+node_modules/
+platforms/
+plugins/
+www/*
+!www/.gitkeep
+app/bower_components
+app/src/typings/*
+!app/src/typings/.gitkeep
