@@ -1,5 +1,5 @@
 interface FranchiseController {
-    (a, b, c);
+    ();
 }
 
 interface FranchiseComponent {

@@ -14,13 +14,9 @@
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true
     },
-    "files" : [
-        "src/app.ts",
-        "src/components/dashboard/dashboard.ts",
-        "src/components/profile/profile.ts",
-        "src/components/franchise/franchise.ts",
-        "src/services/franchise/franchise.ts",
-        "typings/browser.d.ts"
+    "exclude" : [
+        "typings/main.d.ts",
+        "typings/main"
     ],
     "compileOnSave": false,
     "buildOnSave": false,
