@@ -1,8 +1,8 @@
-node_modules/
-platforms/
-plugins/
+node_modules
+platforms
+plugins
 app/bower_components
-app/src/typings/*
-!app/src/typings/.gitkeep
-dist/
+app/typings
+!app/typings/.gitkeep
+dist
 !dist/.gitkeep
